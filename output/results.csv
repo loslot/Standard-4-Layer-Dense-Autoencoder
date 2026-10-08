@@ -1,0 +1,5 @@
+Model,Size,Epochs,Params,Train MSE,Val MSE,Noisy input MSE,Test MSE,Test MSE + TTA,Test PSNR (dB),Digit acc (noisy image),Digit acc (denoised image),Time (s)
+Dense Autoencoder,2500,50,1069584,0.01112,0.01225,0.0195,0.01197,0.0114,19.43,0.88,0.96,21.6
+Dense Autoencoder,2500,100,1069584,0.00918,0.01043,0.0195,0.01015,0.00972,20.12,0.872,0.966,47.0
+Dense Autoencoder,5000,50,1069584,0.00928,0.01029,0.01959,0.01041,0.01005,19.98,0.89,0.967,50.3
+Dense Autoencoder,5000,100,1069584,0.0079,0.00874,0.01959,0.00884,0.00854,20.68,0.884,0.97,104.4
